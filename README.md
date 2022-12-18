@@ -60,7 +60,7 @@ On VisDA-2017 dataset, first download the pretrained weight, password: sfda
 
 https://pan.baidu.com/s/1RbLqvBtqJWNtBJN6Eh3Xzg
 
-Then run:
+place the file 'visda_pretrained_r101.pth' in root folder `./`, then run:
 ```
 python train.py --cfg ./experiments/config/VisDA-2017/visda17_train2val_cfg.yaml --exp_name SFDA-DE
 ```
